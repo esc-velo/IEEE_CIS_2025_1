@@ -1,34 +1,39 @@
 import {
   
   
+  CircleUser,
   Github,
   Instagram,
-  Mail,
-  MapPin,
+  
+  Linkedin,
+  
   Phone
 } from 'lucide-react';
 import Link from 'next/link';
  
 const socialLinks = [
 
+  
   { icon: Instagram, label: 'Instagram' },
+  { icon: Linkedin, label: 'LinkedIn' },
  
   { icon: Github, label: 'GitHub' },
   
 ];
  
-const aboutLinks = [
-  { text: 'Company History', href: '#' },
-  { text: 'Meet the Team', href: '#' },
-  { text: 'Employee Handbook', href: '#' },
-  { text: 'Careers', href: '#' },
+const quickLinks = [
+  
+  { text: 'IEEE Official Website', href: 'http://www.ieee.org/' },
+  { text: 'IEEE CIS Official Website', href: 'https://cis.ieee.org/' },
+  { text: 'IEEE Xplore', href: 'http://ieeexplore.ieee.org/' },
+   { text: 'IEEE Spectrum', href: 'http://spectrum.ieee.org/' },
 ];
  
-const serviceLinks = [
-  { text: 'Web Development', href: '#' },
-  { text: 'Web Design', href: '#' },
-  { text: 'Marketing', href: '#' },
-  { text: 'Google Ads', href: '#' },
+const otherSocities = [
+  { text: 'IEEE SB MUJ ', href: '#' },
+  { text: 'IEEE CS MUJ ', href: '#' },
+  { text: 'IEEE WIE MUJ', href: '#' },
+  { text: 'Genesis', href: '#' },
 ];
  
 const helpfulLinks = [
@@ -38,26 +43,29 @@ const helpfulLinks = [
 ];
  
 const contactInfo = [
-  { icon: Mail, text: 'Subhadeep' },
-  { icon: Phone, text: '8637373116' },
-  { icon: MapPin, text: 'Kolkata, India', isAddress: true },
+  {  text: 'Anshika Katare (Chairperson) ' },
+  
+  { text: '8171653743 ' },
+   { text: 'Yash Ramnani (Vice-Chairperson) ' },
+  
+  {  text: '8171653743' },
 ];
  
 export default function Footer4Col() {
   return (
     <footer className=" w-full place-self-end rounded-t-xl bg-gradient-to-br from-[#0a0f1a] via-[#101624] to-[#1a2233]">
          
-      <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div className="mx-auto max-w-screen-xl px-0 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div>
             <div className="flex justify-center gap-2 text-primary sm:justify-start">
               <img
-                src="/logo.webp"
+                src="/assets/ieeecislogo.png"
                 alt="logo"
                 className="h-8 w-8 rounded-full"
               />
               <span className="bg-primary from-foreground via-rose-200 to-primary bg-clip-text text-2xl font-semibold text-transparent dark:bg-gradient-to-b">
-                Mvpblocks
+                IEEE CIS MUJ
               </span>
             </div>
  
@@ -81,90 +89,58 @@ export default function Footer4Col() {
             </ul>
           </div>
  
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-            <div className="text-center sm:text-left">
-              <p className="text-lg font-medium">About Us</p>
- 
-              <ul className="mt-8 space-y-4 text-sm">
-                {aboutLinks.map(({ text, href }) => (
-                  <li key={text}>
-                    <a
-                      className="text-secondary-foreground/70 transition"
-                      href={href}
-                    >
-                      {text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
- 
-            <div className="text-center sm:text-left">
-              <p className="text-lg font-medium">Our Services</p>
- 
-              <ul className="mt-8 space-y-4 text-sm">
-                {serviceLinks.map(({ text, href }) => (
-                  <li key={text}>
-                    <a
-                      className="text-secondary-foreground/70 transition"
-                      href={href}
-                    >
-                      {text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
- 
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
             <div className="text-center sm:text-left">
               <p className="text-lg font-medium">Helpful Links</p>
  
               <ul className="mt-8 space-y-4 text-sm">
-                {helpfulLinks.map(({ text, href, hasIndicator }) => (
+                {quickLinks.map(({ text, href }) => (
                   <li key={text}>
                     <a
+                      className="text-secondary-foreground/70 transition"
                       href={href}
-                      className={`${
-                        hasIndicator
-                          ? 'group flex justify-center gap-1.5 sm:justify-start'
-                          : 'text-secondary-foreground/70 transition'
-                      }`}
                     >
-                      <span className="text-secondary-foreground/70 transition">
-                        {text}
-                      </span>
-                      {hasIndicator && (
-                        <span className="relative flex size-2">
-                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-                          <span className="relative inline-flex size-2 rounded-full bg-primary" />
-                        </span>
-                      )}
+                      {text}
                     </a>
                   </li>
                 ))}
               </ul>
             </div>
+ 
+            <div className="text-center sm:text-left">
+              <p className="text-lg font-medium">Other Socities</p>
+ 
+              <ul className="mt-8 space-y-4 text-sm">
+                {otherSocities.map(({ text, href }) => (
+                  <li key={text}>
+                    <a
+                      className="text-secondary-foreground/70 transition"
+                      href={href}
+                    >
+                      {text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+ 
+            
  
             <div className="text-center sm:text-left">
               <p className="text-lg font-medium">Contact Us</p>
  
               <ul className="mt-8 space-y-4 text-sm">
-                {contactInfo.map(({ icon: Icon, text, isAddress }) => (
+                {contactInfo.map(({ text }) => (
                   <li key={text}>
                     <a
                       className="flex items-center justify-center gap-1.5 sm:justify-start"
                       href="#"
                     >
-                      <Icon className="size-5 shrink-0 text-primary shadow-sm" />
-                      {isAddress ? (
-                        <address className="-mt-0.5 flex-1 not-italic text-secondary-foreground/70 transition">
-                          {text}
-                        </address>
-                      ) : (
+                      
                         <span className="flex-1 text-secondary-foreground/70 transition">
                           {text}
                         </span>
-                      )}
+                      
                     </a>
                   </li>
                 ))}
@@ -180,7 +156,7 @@ export default function Footer4Col() {
             </p>
  
             <p className="text-secondary-foreground/70-foreground mt-4 text-sm transition sm:order-first sm:mt-0">
-              &copy; 2025 Mvpblocks
+              &copy; 2025 IEEE CIS MUJ
             </p>
           </div>
         </div>

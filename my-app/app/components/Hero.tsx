@@ -96,7 +96,7 @@ export default function MinimalHero() {
  
   return (
     <div
-      className="min-h-screen bg-gradient-to-br from-[#0a0f1a] via-[#101624] to-[#1a2233]
+      className="min-h-screen 
  text-[#e6e1d7] font-primary overflow-hidden relative w-full"
     >
       <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">

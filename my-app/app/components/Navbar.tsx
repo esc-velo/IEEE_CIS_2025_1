@@ -7,15 +7,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 px-8 py-8 flex items-center justify-between">
+    <nav className="w-full fixed top-0 left-0 z-50 pt-0 px-4 flex items-center justify-between">
       {/* Logo */}
       <div className="text-white text-xl font-bold">
   <Image
-    src="/assets/ieeecis2.png" 
+    src="/assets/ieeecis1.png" 
     alt="Logo"
-    width={150}
-    height={150}
-    priority
+    width={180}
+    height={120}
+    
   />
 </div>
 
