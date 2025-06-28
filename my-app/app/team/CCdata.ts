@@ -19,7 +19,7 @@ export const ccdata: TeamMember[] = [
     role: 'Vice Chairperson',
     email: 'priya@example.com',
     bio: 'Supports leadership and bridges communication among teams.',
-    image: '/images/cc/priya.png',
+    image: 'https://images.prismic.io/ieeemuj/aFrTgHfc4bHWirWy_Yashvi_CIS_CC_25-26.jpeg?auto=format,compress',
     socialMedia: {
       twitter: 'https://twitter.com/priyasharma',
       github: 'https://github.com/priyadev',
