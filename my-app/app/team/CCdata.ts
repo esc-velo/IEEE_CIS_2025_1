@@ -3,7 +3,7 @@ import type { TeamMember } from '../components/Team';
 export const ccdata: TeamMember[] = [
   {
     id: 1,
-    name: 'Aarav Mehta',
+    name: 'A',
     role: 'Chairperson',
     email: 'aarav@example.com',
     bio: 'Leads the club and ensures smooth execution of all plans.',
