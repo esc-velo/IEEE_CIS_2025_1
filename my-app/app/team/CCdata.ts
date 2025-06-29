@@ -25,41 +25,44 @@ export const ccdata: TeamMember[] = [
       github: 'https://github.com/priyadev',
     },
   },
-  // New Members from Logistics Team
   {
-    id: 3,
-    name: 'Kanishk Satyajit Das',
-    role: 'Logistics Head',
-    email: 'kanishk@example.com',
-    bio: 'Heads the logistics team and oversees all operational support for events.',
-    image: '/images/cc/kanishk.png',
-    socialMedia: {},
-  },
-  {
-    id: 4,
-    name: 'Rishan Mazumdar',
-    role: 'Logistics Joint Head',
-    email: 'rishan@example.com',
-    bio: 'Supports the logistics head and manages critical resources during events.',
-    image: 'https://drive.google.com/uc?export=view&id=1cIMm0FUtegsM41cKvJw8iSxtLpunUsO8';
-    socialMedia: {},
-  },
-  {
-    id: 5,
-    name: 'Pranav Kheole',
-    role: 'Senior Coordinator (Logistics)',
-    email: 'pranav@example.com',
-    bio: 'Coordinates logistics responsibilities and ensures timely execution.',
-    image: '/images/cc/pranav.png',
-    socialMedia: {},
-  },
-  {
-    id: 6,
-    name: 'Harsh Raj',
-    role: 'Senior Coordinator (Logistics)',
-    email: 'harsh@example.com',
-    bio: 'Assists in managing logistics operations for all events and activities.',
-    image: 'https://drive.google.com/uc?export=view&id=1iUjK53SHfs4QVVLpx6MRZ67lN6DzPj_L',
-    socialMedia: {},
-  },
- ];
+  id: 3,
+  name: 'Drishti Nandwani',
+  role: 'Technical - Webmaster',
+  email: 'drishti11.nandwani05@gmail.com',
+  bio: 'Handles technical aspects and maintains the IEEE CIS MUJ website.',
+  image: 'https://images.prismic.io/ieeemuj/aFrTXnfc4bHWirWG_Drishti_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 4,
+  name: 'Gauri Arora',
+  role: 'Technical - Webmaster',
+  email: 'reachgauriarora@gmail.com',
+  bio: 'Contributes to core website development and automation workflows.',
+  image: 'https://images.prismic.io/ieeemuj/aFrTZHfc4bHWirWM_Gauri_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 5,
+  name: 'Rahini Raneru',
+  role: 'Technical - Webmaster',
+  email: 'rahiniraneru@gmail.com',
+  bio: 'Supports development and technical implementation for web projects.',
+  image: 'https://images.prismic.io/ieeemuj/aFrTdHfc4bHWirWr_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 6,
+  name: 'Vaisakhi Das',
+  role: 'Technical - Webmaster',
+  email: 'dasvaisakhi1@gmail.com',
+  bio: 'Works on the frontend/backend and maintains event-based web tools.',
+  image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+]
+  
+  
+ 
+
