@@ -1,13 +1,12 @@
 import {
   
   
-  CircleUser,
+ 
   Github,
   Instagram,
   
   Linkedin,
-  
-  Phone
+ 
 } from 'lucide-react';
 import Link from 'next/link';
  
@@ -36,11 +35,7 @@ const otherSocities = [
   { text: 'Genesis', href: '#' },
 ];
  
-const helpfulLinks = [
-  { text: 'FAQs', href: '#' },
-  { text: 'Support', href: '#' },
-  { text: 'Live Chat', href: '#', hasIndicator: true },
-];
+
  
 const contactInfo = [
   {  text: 'Anshika Katare (Chairperson) ' },
