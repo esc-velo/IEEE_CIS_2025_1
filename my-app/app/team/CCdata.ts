@@ -3,7 +3,55 @@ import type { TeamMember } from '../components/Team';
 export const ccdata: TeamMember[] = [
   {
 
-    id: 6,
+    id: 1,
+    name: 'Parag Goel',
+    role: 'Head of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aGPAKXfc4bHWi6Ui_Parag_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
+      linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+  },
+  {
+    id: 2,
+    name: 'Shubhanshi Shekhar',
+    role: 'Joint Head of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aGGYWnfc4bHWi0KE_Shubhanshi_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/shubhanshi-shekhar-81a649348',
+    }
+  },
+   {
+    id: 3,
+    name: 'Savni Goyal',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aFrTeXfc4bHWirWt_Savni_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/savnigoyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      github: 'https://github.com/savnigoyal',
+    },
+  },
+  {
+    id: 4,
+    name: 'Yashvi Jangir',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aFrTgHfc4bHWirWy_Yashvi_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/yashvi-jangir-43b23b212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+  },
+  {
+
+    id: 5,
+    name: 'Manya Gupta',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: '',
+    socialMedia: {
+      
+    },
+  },
+
+  {  id: 6,
     name: 'Mahi Malhotra ',
     role: ' Finance - Head',
     image: 'https://images.prismic.io/ieeemuj/aFrTaXfc4bHWirWW_Mahi_CIS_CC_25-26.HEIC?auto=format,compress',
@@ -21,6 +69,7 @@ export const ccdata: TeamMember[] = [
 
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/nayandeep-dey-17a60721a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+
     },
   },
 
@@ -40,19 +89,9 @@ export const ccdata: TeamMember[] = [
     }
     },
 
+ 
   {
-    id: 3,
-    name: 'Priya Sharma',
-    role: 'Vice Chairperson',
-   
-    image: 'https://images.prismic.io/ieeemuj/aFrTgHfc4bHWirWy_Yashvi_CIS_CC_25-26.jpeg?auto=format,compress',
-    socialMedia: {
-      twitter: 'https://twitter.com/priyasharma',
-      github: 'https://github.com/priyadev',
-    },
-  },
-  {
-  id: 65,
+  id: 10,
   name: 'Drishti Nandwani',
   role: 'Technical - Webmaster',
  
@@ -60,7 +99,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 42,
+  id: 11,
   name: 'Gauri Arora',
   role: 'Technical - Webmaster',
   
@@ -68,7 +107,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 52,
+  id: 12,
   name: 'Rahini Raneru',
   role: 'Technical - Webmaster',
  
@@ -76,13 +115,14 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 62,
+  id: 13,
   name: 'Vaisakhi Das',
   role: 'Technical - Webmaster',
   
   image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
   socialMedia: {},
 },
+
 ]
   
   
