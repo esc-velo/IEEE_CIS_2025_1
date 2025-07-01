@@ -62,7 +62,7 @@ export const ccdata: TeamMember[] = [
 
   {  id: 6,
     name: 'Mahi Malhotra ',
-    role: ' Finance - Head',
+    role: ' Head of Finance',
     image: 'https://images.prismic.io/ieeemuj/aFrTaXfc4bHWirWW_Mahi_CIS_CC_25-26.HEIC?auto=format,compress',
 
     socialMedia: {
@@ -73,7 +73,7 @@ export const ccdata: TeamMember[] = [
 
    id: 7,
     name: 'Nayandeep Dey ',
-    role: 'Finance- Joint head of Finance',
+    role: 'Joint head of Finance',
     image: 'https://images.prismic.io/ieeemuj/aFrTbHfc4bHWirWb_Nayandeep_CIS_CC_25-26.jpg?auto=format,compress',
 
     socialMedia: {
@@ -85,13 +85,13 @@ export const ccdata: TeamMember[] = [
     {
    id: 8,
     name: 'Kritika Mittal ',
-    role: 'Finance - Senior coordinator',
+    role: 'Senior coordinator of Finance ',
     image: 'https://images.prismic.io/ieeemuj/aFrTZ3fc4bHWirWT_Kritika_CIS_CC_25-26.jpg?auto=format,compress',
     },
     {
    id: 9,
     name: 'Manya Moonat ',
-    role: 'Finance - Senior coordinator',
+    role: 'Senior coordinator of Finance ',
     image: 'https://images.prismic.io/ieeemuj/aFrTanfc4bHWirWY_Manya_CIS_CC_25-26.jpeg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/manya-moonat-15a090270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -102,34 +102,44 @@ export const ccdata: TeamMember[] = [
   {
   id: 10,
   name: 'Drishti Nandwani',
-  role: 'Technical - Webmaster',
- 
+  role: 'Webmaster',
   image: 'https://images.prismic.io/ieeemuj/aFrTXnfc4bHWirWG_Drishti_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
-},
+  socialMedia: {
+    linkedin: 'https://www.linkedin.com/in/drishtinandwani11/',
+   },
+  },
+
 {
   id: 11,
   name: 'Gauri Arora',
-  role: 'Technical - Webmaster',
-  
+  role: 'Webmaster',
   image: 'https://images.prismic.io/ieeemuj/aFrTZHfc4bHWirWM_Gauri_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
+  socialMedia: {
+    linkedin: 'https://www.linkedin.com/in/gauri-arora-566913321?',
+    github: 'https://github.com/gauriarora-cyber',
 },
+  },
+
 {
   id: 12,
   name: 'Rahini Raneru',
-  role: 'Technical - Webmaster',
+  role: 'Webmaster',
  
   image: 'https://images.prismic.io/ieeemuj/aFrTdHfc4bHWirWr_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
+  socialMedia: {
+    linkedin: 'https://www.linkedin.com/in/rahini-raneru-6493552b6',
+    github: 'https://github.com/esc-velo'
+  },
 },
 {
   id: 13,
   name: 'Vaisakhi Das',
-  role: 'Technical - Webmaster',
-  
+  role: 'Webmaster', 
   image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
+  socialMedia: {
+    linkedin: 'https://www.linkedin.com/in/vaisakhi-das-b03858303/',
+    github:'https://github.com/VaisakhiDas'
+  },
 },
   {
     id: 14,
@@ -162,7 +172,7 @@ export const ccdata: TeamMember[] = [
   {
     id: 17,
     name: 'Abhinav Kumar Tripathi',
-    role: 'Senior Coordinator of SM & GD - ',
+    role: 'Senior Coordinator of SM & GD ',
     image: 'https://images.prismic.io/ieeemuj/aFrTW3fc4bHWirWC_Abhinav_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/abhinav-kumar-tripathi-ba4638360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -185,7 +195,7 @@ export const ccdata: TeamMember[] = [
 
     id: 24,
     name: 'Ekaagra Gupta',
-    role: 'Sponsorship & Curations - Joint Head',
+    role: 'Joint Head of Sponsorship & Curations ',
     image: 'https://images.prismic.io/ieeemuj/aFrTX3fc4bHWirWH_Ekaagra_CIS_CC_25-26.png?auto=format,compress',
     socialMedia: {
       linkedin: 'http://www.linkedin.com/in/ekaagragupta',
@@ -196,7 +206,7 @@ export const ccdata: TeamMember[] = [
    {
     id: 25,
     name: 'Veer Chavan',
-    role: 'Sponsorship & Curations - Senior Coordinator',
+    role: 'Senior Coordinator of Sponsorship & Curations ',
     image: 'https://images.prismic.io/ieeemuj/aFrTf3fc4bHWirWx_Veer_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/veer-chavan-84b35932a/',
@@ -207,7 +217,7 @@ export const ccdata: TeamMember[] = [
        {
     id: 26,
     name: 'Arnav jain',
-    role: 'Sponsorship & Curations - Senior Coordinator',
+    role: 'Senior Coordinator of Sponsorship & Curations ',
     image: '',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/arnavvjainnn',
@@ -217,7 +227,7 @@ export const ccdata: TeamMember[] = [
   {
     id: 27,
     name: 'Sanket',
-    role: 'Sponsorship & Curations - Senior Coordinator',
+    role: 'Senior Coordinator of Sponsorship & Curations ',
     image: 'https://images.prismic.io/ieeemuj/aFrTZXfc4bHWirWP_HarshGandash_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: '',
