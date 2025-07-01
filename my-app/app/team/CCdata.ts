@@ -184,7 +184,7 @@ export const ccdata: TeamMember[] = [
 
     id: 23,
     name: 'Aaryan Rathee',
-    role: 'Sponsorship & Curations - Head',
+    role: 'Head of Sponsorship & Curations ',
     image: 'https://images.prismic.io/ieeemuj/aFrTWXfc4bHWirV__Aaryan_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/aaryanrathee',
