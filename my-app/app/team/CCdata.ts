@@ -11,8 +11,10 @@ export const ccdata: TeamMember[] = [
     socialMedia: {
       instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
       linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+
     },
   },
+
   {
     id: 2,
     name: 'Shubhanshi Shekhar',
@@ -30,8 +32,14 @@ export const ccdata: TeamMember[] = [
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/savnigoyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       github: 'https://github.com/savnigoyal',
+
     },
   },
+
+
+  
+
+
   {
     id: 4,
     name: 'Yashvi Jangir',
@@ -159,7 +167,60 @@ export const ccdata: TeamMember[] = [
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/abhinav-kumar-tripathi-ba4638360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
-  }
+  }, {
+
+    id: 23,
+    name: 'Aaryan Rathee',
+    role: 'Sponsorship & Curations - Head',
+    image: 'https://images.prismic.io/ieeemuj/aFrTWXfc4bHWirV__Aaryan_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/aaryanrathee',
+      instagram: 'https://www.instagram.com/ft.aaryanrathee',
+    },},
+  
+  {
+
+    id: 24,
+    name: 'Ekaagra Gupta',
+    role: 'Sponsorship & Curations - Joint Head',
+    image: 'https://images.prismic.io/ieeemuj/aFrTX3fc4bHWirWH_Ekaagra_CIS_CC_25-26.png?auto=format,compress',
+    socialMedia: {
+      linkedin: 'http://www.linkedin.com/in/ekaagragupta',
+      github: 'https://github.com/ekaagragupta',
+    },
+  },
+
+   {
+    id: 25,
+    name: 'Veer Chavan',
+    role: 'Sponsorship & Curations - Senior Coordinator',
+    image: 'https://images.prismic.io/ieeemuj/aFrTf3fc4bHWirWx_Veer_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/veer-chavan-84b35932a/',
+      instagram: 'https://www.instagram.com/veer.chavan_/',
+    },
+   },
+  
+       {
+    id: 26,
+    name: 'Arnav jain',
+    role: 'Sponsorship & Curations - Senior Coordinator',
+    image: '',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/arnavvjainnn',
+    },
+  },
+
+  {
+    id: 27,
+    name: 'Sanket',
+    role: 'Sponsorship & Curations - Senior Coordinator',
+    image: 'https://images.prismic.io/ieeemuj/aFrTZXfc4bHWirWP_HarshGandash_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },
+
 
 ]
 
