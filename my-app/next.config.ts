@@ -2,7 +2,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['https://prismic.io/'], 
+    domains: ['images.prismic.io'], 
   },
 };
 
