@@ -2,7 +2,7 @@ import type { TeamMember } from '../components/Team';
 
 export const ccdata: TeamMember[] = [
   {
-    id: 1,
+    id: 6,
     name: 'Mahi Malhotra ',
     role: ' Finance - Head',
     image: 'https://images.prismic.io/ieeemuj/aFrTaXfc4bHWirWW_Mahi_CIS_CC_25-26.HEIC?auto=format,compress',
@@ -11,7 +11,7 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-   id: 2,
+   id: 7,
     name: 'Nayandeep Dey ',
     role: 'Finance- Joint head of Finance',
     image: 'https://images.prismic.io/ieeemuj/aFrTbHfc4bHWirWb_Nayandeep_CIS_CC_25-26.jpg?auto=format,compress',
@@ -20,13 +20,13 @@ export const ccdata: TeamMember[] = [
     },
   },
     {
-   id: 3,
+   id: 8,
     name: 'Kritika Mittal ',
     role: 'Finance - Senior coordinator',
     image: 'https://images.prismic.io/ieeemuj/aFrTZ3fc4bHWirWT_Kritika_CIS_CC_25-26.jpg?auto=format,compress',
     },
     {
-   id: 3,
+   id: 9,
     name: 'Manya Moonat ',
     role: 'Finance - Senior coordinator',
     image: 'https://images.prismic.io/ieeemuj/aFrTanfc4bHWirWY_Manya_CIS_CC_25-26.jpeg?auto=format,compress',
