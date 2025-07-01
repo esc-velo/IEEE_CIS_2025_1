@@ -49,7 +49,7 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-  id: 6,
+  id: 19,
   name: 'Drishti Nandwani',
   role: 'Technical - Webmaster',
   bio: 'Handles technical aspects and maintains the IEEE CIS MUJ website.',
@@ -57,7 +57,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 7,
+  id: 22,
   name: 'Gauri Arora',
   role: 'Technical - Webmaster',
   bio: 'Contributes to core website development and automation workflows.',
@@ -65,7 +65,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 8,
+  id: 20,
   name: 'Rahini Raneru',
   role: 'Technical - Webmaster',
   bio: 'Supports development and technical implementation for web projects.',
@@ -73,7 +73,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 9,
+  id: 21,
   name: 'Vaisakhi Das',
   role: 'Technical - Webmaster',
   bio: 'Works on the frontend/backend and maintains event-based web tools.',
