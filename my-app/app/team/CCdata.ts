@@ -5,11 +5,11 @@ export const ccdata: TeamMember[] = [
     id: 1,
     name: 'Parag Goel',
     role: 'Programs and Promotions - Head',
-    email: '',
-    image: '/images/cc/parag.png',
+    email: 'parag.2430040103@muj.manipal.edu',
+    image: 'https://images.prismic.io/ieeemuj/aGPAKXfc4bHWi6Ui_Parag_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
-      instagram: 'https://instagram.com/aarav',
-      linkedin: 'https://linkedin.com/in/aaravmehta',
+      instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
+      linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   },
   {
@@ -50,7 +50,7 @@ export const ccdata: TeamMember[] = [
     email: 'manya.2427010351@muj.manipal.edu',
     image: '',
     socialMedia: {
-
+      
     },
   },
 ];
