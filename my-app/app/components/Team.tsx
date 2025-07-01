@@ -3,12 +3,9 @@
 import Link from 'next/link';
 import { cn } from '../lib/utils';
 import { Facebook, Instagram, Twitter, Globe } from 'lucide-react';
-import { Cabin_Condensed } from 'next/font/google';
 
-const mont = Cabin_Condensed({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-});
+import Image from 'next/image';
+
 
 export type SocialMediaLinks = {
   facebook?: string;
@@ -65,10 +62,10 @@ export default function TeamGrid3D({
     <section className={cn('w-full py-16 text-white', className)}>
       <div className="container mx-auto max-w-5xl px-4">
         <div className="mb-12">
-          <p className={cn('mb-2 text-sm font-medium tracking-wider', mont.className)}>
+          <p className='mb-2 text-sm font-medium tracking-wider'>
             {subtitle}
           </p>
-          <h2 className={cn('mb-6 text-4xl font-bold leading-tight md:text-5xl', mont.className)}>
+          <h2 className='mb-6 text-4xl font-bold leading-tight md:text-5xl'>
             {title}
           </h2>
         </div>
@@ -77,7 +74,7 @@ export default function TeamGrid3D({
           {teamMembers.map((member) => (
             <div key={member.id} className="group">
               <div className="mb-4 aspect-square overflow-hidden rounded-lg bg-gray-700">
-                <img
+                <Image
                   src={member.image || '/placeholder.svg'}
                   alt={member.name}
                   className="h-full w-full object-cover"

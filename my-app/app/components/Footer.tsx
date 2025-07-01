@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import {
   
   
@@ -54,7 +56,7 @@ export default function Footer4Col() {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div>
             <div className="flex justify-center gap-2 text-primary sm:justify-start">
-              <img
+              <Image
                 src="/assets/ieeecislogo.png"
                 alt="logo"
                 className="h-8 w-8 rounded-full"

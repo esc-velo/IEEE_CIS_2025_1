@@ -9,7 +9,7 @@ interface BentoGridItemProps {
   description: string;
   icon: React.ReactNode;
   className?: string;
-  size?: 'small' | 'medium' | 'large';
+
   href:string;
 }
  
@@ -18,7 +18,7 @@ const BentoGridItem = ({
   description,
   icon,
   className,
-  size = 'small',
+  
  href,
 }: BentoGridItemProps) => {
   const variants = {

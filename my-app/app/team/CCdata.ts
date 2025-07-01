@@ -132,7 +132,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
   {
-    id: 12,
+    id: 14,
     name: 'Garv Sharma',
     role: 'Head of SM & GD ',
     image: 'https://images.prismic.io/ieeemuj/aFrTYHfc4bHWirWI_Garv_CIS_CC_25-26.jpg?auto=format,compress',
@@ -141,7 +141,7 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-    id: 13,
+    id: 15,
     name: 'S Hriday',
     role: 'Joint Head of SM & GD ',
     image: 'https://images.prismic.io/ieeemuj/aFqB8Xfc4bHWiqQO_Hriday_CIS_CC_25-26.jpg?auto=format,compress',
@@ -151,7 +151,7 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-    id: 14,
+    id: 16,
     name: 'Prateek Rajendra',
     role: 'Senior Coordinator of SM & GD ',
     image: 'https://images.prismic.io/ieeemuj/aFrTb3fc4bHWirWg_Prateek_CIS_CC_25-26.jpg?auto=format,compress',
@@ -160,14 +160,17 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-    id: 15,
+    id: 17,
     name: 'Abhinav Kumar Tripathi',
     role: 'Senior Coordinator of SM & GD - ',
     image: 'https://images.prismic.io/ieeemuj/aFrTW3fc4bHWirWC_Abhinav_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/abhinav-kumar-tripathi-ba4638360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
-  }, {
+  },
+  /*18,19,20 21 22*/
+  
+  {
 
     id: 23,
     name: 'Aaryan Rathee',
