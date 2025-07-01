@@ -3,11 +3,10 @@ import type { TeamMember } from '../components/Team';
 export const ccdata: TeamMember[] = [
   {
     id: 1,
-    name: 'Aarav Mehta',
-    role: 'Chairperson',
-    email: 'aarav@example.com',
-    bio: 'Leads the club and ensures smooth execution of all plans.',
-    image: '/images/cc/aarav.png',
+    name: 'Parag Goel',
+    role: 'Programs and Promotions - Head',
+    email: 'parag.2430040103@muj.manipal.edu',
+    image: 'https://images.prismic.io/ieeemuj/aGPAKXfc4bHWi6Ui_Parag_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
       linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -55,7 +54,7 @@ export const ccdata: TeamMember[] = [
     },
   },
   {
-  id: 3,
+  id: 6,
   name: 'Drishti Nandwani',
   role: 'Technical - Webmaster',
   bio: 'Handles technical aspects and maintains the IEEE CIS MUJ website.',
@@ -63,7 +62,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 4,
+  id: 7,
   name: 'Gauri Arora',
   role: 'Technical - Webmaster',
   bio: 'Contributes to core website development and automation workflows.',
@@ -71,7 +70,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 5,
+  id: 8,
   name: 'Rahini Raneru',
   role: 'Technical - Webmaster',
   bio: 'Supports development and technical implementation for web projects.',
@@ -79,7 +78,7 @@ export const ccdata: TeamMember[] = [
   socialMedia: {},
 },
 {
-  id: 6,
+  id: 9,
   name: 'Vaisakhi Das',
   role: 'Technical - Webmaster',
   bio: 'Works on the frontend/backend and maintains event-based web tools.',
