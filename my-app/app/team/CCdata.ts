@@ -1,6 +1,7 @@
 import type { TeamMember } from '../components/Team';
 
 export const ccdata: TeamMember[] = [
+  
   {
 
     id: 1,
@@ -122,8 +123,46 @@ export const ccdata: TeamMember[] = [
   image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
   socialMedia: {},
 },
+  {
+    id: 12,
+    name: 'Garv Sharma',
+    role: 'Head of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTYHfc4bHWirWI_Garv_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/garv-sharma-17991536b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+  },
+  {
+    id: 13,
+    name: 'S Hriday',
+    role: 'Joint Head of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFqB8Xfc4bHWiqQO_Hriday_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/hriday-020458343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/DCypherHriday?fbclid=PAQ0xDSwLGMGVleHRuA2FlbQIxMQABp9J-BrzJkX021cBzm1o7Ptwz8FLrHxR1z-mv_0vNdBaXs_Zxv0wcXMhPh52X_aem_UD0PtuVbMt8k5KlG_51wkg'
+    },
+  },
+  {
+    id: 14,
+    name: 'Prateek Rajendra',
+    role: 'Senior Coordinator of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTb3fc4bHWirWg_Prateek_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'http://www.linkedin.com/in/prateek-borse-412b2832a',
+    },
+  },
+  {
+    id: 15,
+    name: 'Abhinav Kumar Tripathi',
+    role: 'Senior Coordinator of SM & GD - ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTW3fc4bHWirWC_Abhinav_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/abhinav-kumar-tripathi-ba4638360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+  }
 
 ]
+
   
   
  
