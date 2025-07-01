@@ -2,7 +2,7 @@ import type { TeamMember } from '../components/Team';
 
 export const ccdata: TeamMember[] = [
   {
-    id: 1,
+    id: 23,
     name: 'Aaryan Rathee',
     role: 'Sponsorship & Curations - Head',
     image: 'https://images.prismic.io/ieeemuj/aFrTWXfc4bHWirV__Aaryan_CIS_CC_25-26.jpg?auto=format,compress',
@@ -14,7 +14,7 @@ export const ccdata: TeamMember[] = [
   },
 
   {
-    id: 2,
+    id: 24,
     name: 'Ekaagra Gupta',
     role: 'Sponsorship & Curations - Joint Head',
     image: 'https://images.prismic.io/ieeemuj/aFrTX3fc4bHWirWH_Ekaagra_CIS_CC_25-26.png?auto=format,compress',
@@ -25,7 +25,7 @@ export const ccdata: TeamMember[] = [
   },
 
  {
-    id: 3,
+    id: 25,
     name: 'Veer Chavan',
     role: 'Sponsorship & Curations - Senior Coordinator',
     image: 'https://images.prismic.io/ieeemuj/aFrTf3fc4bHWirWx_Veer_CIS_CC_25-26.jpg?auto=format,compress',
@@ -37,7 +37,7 @@ export const ccdata: TeamMember[] = [
 
 
    {
-    id: 4,
+    id: 26,
     name: 'Arnav jain',
     role: 'Sponsorship & Curations - Senior Coordinator',
     image: '',
@@ -47,7 +47,7 @@ export const ccdata: TeamMember[] = [
   },
 
   {
-    id: 5,
+    id: 27,
     name: 'Sanket',
     role: 'Sponsorship & Curations - Senior Coordinator',
     image: 'https://images.prismic.io/ieeemuj/aFrTZXfc4bHWirWP_HarshGandash_CIS_CC_25-26.jpg?auto=format,compress',
