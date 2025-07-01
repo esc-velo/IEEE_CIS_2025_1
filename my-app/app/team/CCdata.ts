@@ -1,7 +1,174 @@
 import type { TeamMember } from '../components/Team';
 
 export const ccdata: TeamMember[] = [
+  
   {
+
+    id: 1,
+    name: 'Parag Goel',
+    role: 'Head of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aGPAKXfc4bHWi6Ui_Parag_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
+      linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+
+    },
+  },
+
+  {
+    id: 2,
+    name: 'Shubhanshi Shekhar',
+    role: 'Joint Head of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aGGYWnfc4bHWi0KE_Shubhanshi_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/shubhanshi-shekhar-81a649348',
+    }
+  },
+   {
+    id: 3,
+    name: 'Savni Goyal',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aFrTeXfc4bHWirWt_Savni_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/savnigoyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      github: 'https://github.com/savnigoyal',
+
+    },
+  },
+
+
+  
+
+
+  {
+    id: 4,
+    name: 'Yashvi Jangir',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aFrTgHfc4bHWirWy_Yashvi_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/yashvi-jangir-43b23b212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+  },
+  {
+
+    id: 5,
+    name: 'Manya Gupta',
+    role: 'Senior Coordinator of Programs & Promotions',
+    image: '',
+    socialMedia: {
+      
+    },
+  },
+
+  {  id: 6,
+    name: 'Mahi Malhotra ',
+    role: ' Finance - Head',
+    image: 'https://images.prismic.io/ieeemuj/aFrTaXfc4bHWirWW_Mahi_CIS_CC_25-26.HEIC?auto=format,compress',
+
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/mahi-malhotra-674630367',
+    },
+  },
+  {
+
+   id: 7,
+    name: 'Nayandeep Dey ',
+    role: 'Finance- Joint head of Finance',
+    image: 'https://images.prismic.io/ieeemuj/aFrTbHfc4bHWirWb_Nayandeep_CIS_CC_25-26.jpg?auto=format,compress',
+
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/nayandeep-dey-17a60721a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+
+    },
+  },
+
+    {
+   id: 8,
+    name: 'Kritika Mittal ',
+    role: 'Finance - Senior coordinator',
+    image: 'https://images.prismic.io/ieeemuj/aFrTZ3fc4bHWirWT_Kritika_CIS_CC_25-26.jpg?auto=format,compress',
+    },
+    {
+   id: 9,
+    name: 'Manya Moonat ',
+    role: 'Finance - Senior coordinator',
+    image: 'https://images.prismic.io/ieeemuj/aFrTanfc4bHWirWY_Manya_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/manya-moonat-15a090270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    }
+    },
+
+ 
+  {
+  id: 10,
+  name: 'Drishti Nandwani',
+  role: 'Technical - Webmaster',
+ 
+  image: 'https://images.prismic.io/ieeemuj/aFrTXnfc4bHWirWG_Drishti_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 11,
+  name: 'Gauri Arora',
+  role: 'Technical - Webmaster',
+  
+  image: 'https://images.prismic.io/ieeemuj/aFrTZHfc4bHWirWM_Gauri_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 12,
+  name: 'Rahini Raneru',
+  role: 'Technical - Webmaster',
+ 
+  image: 'https://images.prismic.io/ieeemuj/aFrTdHfc4bHWirWr_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+{
+  id: 13,
+  name: 'Vaisakhi Das',
+  role: 'Technical - Webmaster',
+  
+  image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
+  socialMedia: {},
+},
+  {
+    id: 12,
+    name: 'Garv Sharma',
+    role: 'Head of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTYHfc4bHWirWI_Garv_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/garv-sharma-17991536b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+  },
+  {
+    id: 13,
+    name: 'S Hriday',
+    role: 'Joint Head of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFqB8Xfc4bHWiqQO_Hriday_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/hriday-020458343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/DCypherHriday?fbclid=PAQ0xDSwLGMGVleHRuA2FlbQIxMQABp9J-BrzJkX021cBzm1o7Ptwz8FLrHxR1z-mv_0vNdBaXs_Zxv0wcXMhPh52X_aem_UD0PtuVbMt8k5KlG_51wkg'
+    },
+  },
+  {
+    id: 14,
+    name: 'Prateek Rajendra',
+    role: 'Senior Coordinator of SM & GD ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTb3fc4bHWirWg_Prateek_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'http://www.linkedin.com/in/prateek-borse-412b2832a',
+    },
+  },
+  {
+    id: 15,
+    name: 'Abhinav Kumar Tripathi',
+    role: 'Senior Coordinator of SM & GD - ',
+    image: 'https://images.prismic.io/ieeemuj/aFrTW3fc4bHWirWC_Abhinav_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'https://www.linkedin.com/in/abhinav-kumar-tripathi-ba4638360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+  }, {
+
     id: 23,
     name: 'Aaryan Rathee',
     role: 'Sponsorship & Curations - Head',
@@ -9,11 +176,10 @@ export const ccdata: TeamMember[] = [
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/aaryanrathee',
       instagram: 'https://www.instagram.com/ft.aaryanrathee',
-      
-    },
-  },
-
+    },},
+  
   {
+
     id: 24,
     name: 'Ekaagra Gupta',
     role: 'Sponsorship & Curations - Joint Head',
@@ -24,7 +190,7 @@ export const ccdata: TeamMember[] = [
     },
   },
 
- {
+   {
     id: 25,
     name: 'Veer Chavan',
     role: 'Sponsorship & Curations - Senior Coordinator',
@@ -33,10 +199,9 @@ export const ccdata: TeamMember[] = [
       linkedin: 'https://www.linkedin.com/in/veer-chavan-84b35932a/',
       instagram: 'https://www.instagram.com/veer.chavan_/',
     },
-  },
-
-
-   {
+   },
+  
+       {
     id: 26,
     name: 'Arnav jain',
     role: 'Sponsorship & Curations - Senior Coordinator',
@@ -56,52 +221,9 @@ export const ccdata: TeamMember[] = [
     },
   },
 
-];
-  {
-    id: 3,
-    name: 'Priya Sharma',
-    role: 'Vice Chairperson',
-    email: 'priya@example.com',
-    bio: 'Supports leadership and bridges communication among teams.',
-    image: 'https://images.prismic.io/ieeemuj/aFrTgHfc4bHWirWy_Yashvi_CIS_CC_25-26.jpeg?auto=format,compress',
-    socialMedia: {
-      twitter: 'https://twitter.com/priyasharma',
-      github: 'https://github.com/priyadev',
-    },
-  },
-  {
-  id: 3,
-  name: 'Drishti Nandwani',
-  role: 'Technical - Webmaster',
-  bio: 'Handles technical aspects and maintains the IEEE CIS MUJ website.',
-  image: 'https://images.prismic.io/ieeemuj/aFrTXnfc4bHWirWG_Drishti_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
-},
-{
-  id: 4,
-  name: 'Gauri Arora',
-  role: 'Technical - Webmaster',
-  bio: 'Contributes to core website development and automation workflows.',
-  image: 'https://images.prismic.io/ieeemuj/aFrTZHfc4bHWirWM_Gauri_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
-},
-{
-  id: 5,
-  name: 'Rahini Raneru',
-  role: 'Technical - Webmaster',
-  bio: 'Supports development and technical implementation for web projects.',
-  image: 'https://images.prismic.io/ieeemuj/aFrTdHfc4bHWirWr_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
-},
-{
-  id: 6,
-  name: 'Vaisakhi Das',
-  role: 'Technical - Webmaster',
-  bio: 'Works on the frontend/backend and maintains event-based web tools.',
-  image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
-  socialMedia: {},
-},
+
 ]
+
   
   
  
