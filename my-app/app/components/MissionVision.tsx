@@ -68,42 +68,42 @@ const items = [
     title: 'Know More About Us',
     description: 'Explore who we are, our mission, and how we thrive within MUJ.',
     icon: <Code className="size-6" />,
-    size: 'large' as const,
+    
     href: '/know-more',
   },
   {
     title: 'Join Now',
     description: 'Become a part of our vibrant community and contribute to exciting projects.',
     icon: <Layers className="size-6" />,
-    size: 'small' as const,
+    
     href: '/join',
   },
   {
     title: 'Meet Our Team at MUJ',
     description: 'Get to know the minds behind our initiatives and events.',
     icon: <Layers className="size-6" />,
-    size: 'medium' as const,
+   
     href: '/team',
   },
   {
     title: 'Events in MUJ',
     description: 'Stay updated on tech fests, workshops, and everything we host.',
     icon: <Palette className="size-6" />,
-    size: 'medium' as const,
+    
     href: '/events',
   },
   {
     title: 'FAQs',
     description: 'Find answers to common questions and understand how we operate.',
     icon: <Zap className="size-6" />,
-    size: 'small' as const,
+   
     href: '/faq',
   },
   {
     title: 'CIS Strategic Plan',
     description: 'Dive into our vision, long-term goals, and the roadmap to the future.',
     icon: <FileText className="size-6" />,
-    size: 'large' as const,
+   
     href: '/strategic-plan',
   },
 ];
@@ -185,16 +185,9 @@ export default function BentoGrid1() {
             title={item.title}
             description={item.description}
             icon={item.icon}
-            size={item.size}
+            
             href={item.href}
-            className={cn(
-              item.size === 'large'
-                ? 'col-span-4'
-                : item.size === 'medium'
-                ? 'col-span-3'
-                : 'col-span-2',
-              'h-full',
-            )}
+            className=""
           />
         ))}
       </motion.div>

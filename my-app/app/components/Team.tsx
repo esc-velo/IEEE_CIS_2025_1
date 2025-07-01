@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '../lib/utils';
 import { Facebook, Instagram, Twitter, Globe } from 'lucide-react';
@@ -26,8 +25,8 @@ export type TeamMember = {
   id: number;
   name: string;
   role: string;
-  email?: string;
-  bio?: string;
+  
+  
   image: string;
   socialMedia?: SocialMediaLinks;
   expertise?: string[];
@@ -85,11 +84,9 @@ export default function TeamGrid3D({
                 />
               </div>
               <h3 className="text-xl font-bold">{member.name}</h3>
-              {member.email && (
-                <p className="mb-2 text-sm text-green-400">{member.email}</p>
-              )}
-              {member.bio && (
-                <p className="mb-4 text-sm text-gray-400">{member.bio}</p>
+              
+              {member.role && (
+                <p className="mb-4 text-sm text-gray-400">{member.role}</p>
               )}
               <div className="mt-2 flex space-x-4">
                 {member.socialMedia &&
