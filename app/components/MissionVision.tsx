@@ -1,6 +1,7 @@
 'use client';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
+
 import { ArrowRight, Code, FileText, Layers, Palette, Zap } from 'lucide-react';
  
 interface BentoGridItemProps {
@@ -8,7 +9,6 @@ interface BentoGridItemProps {
   description: string;
   icon: React.ReactNode;
   className?: string;
-  size?: 'small' | 'medium' | 'large';
 }
  
 const BentoGridItem = ({
@@ -16,11 +16,11 @@ const BentoGridItem = ({
   description,
   icon,
   className,
-  size = 'small',
 }: BentoGridItemProps) => {
+
   const variants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { type: 'spring', damping: 25 } },
+    visible: { opacity: 1, y: 0, transition: { type: 'spring' as const, damping: 25 } },
   };
  
   return (
@@ -125,7 +125,7 @@ export default function BentoGrid1() {
             title={item.title}
             description={item.description}
             icon={item.icon}
-            size={item.size}
+            // size={item.size}
             className={cn(
               item.size === 'large'
                 ? 'col-span-4'
