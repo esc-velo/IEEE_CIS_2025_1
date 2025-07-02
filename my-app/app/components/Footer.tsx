@@ -59,7 +59,9 @@ export default function Footer4Col() {
               <Image
                 src="/assets/ieeecislogo.png"
                 alt="logo"
-                className="h-8 w-8 rounded-full"
+                width={8}
+                height={8}
+                className="rounded-full"
               />
               <span className="bg-primary from-foreground via-rose-200 to-primary bg-clip-text text-2xl font-semibold text-transparent dark:bg-gradient-to-b">
                 IEEE CIS MUJ

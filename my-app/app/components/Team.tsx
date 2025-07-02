@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { cn } from '../lib/utils';
+
 import { Facebook, Instagram, Twitter, Globe } from 'lucide-react';
 
 import Image from 'next/image';
@@ -59,7 +59,7 @@ export default function TeamGrid3D({
   };
 
   return (
-    <section className={cn('w-full py-16 text-white', className)}>
+    <section className='w-full py-16 text-white'>
       <div className="container mx-auto max-w-5xl px-4">
         <div className="mb-12">
           <p className='mb-2 text-sm font-medium tracking-wider'>
@@ -74,8 +74,9 @@ export default function TeamGrid3D({
           {teamMembers.map((member) => (
             <div key={member.id} className="group">
               <div className="mb-4 aspect-square overflow-hidden rounded-lg bg-gray-700">
-                <Image
-                  src={member.image || '/placeholder.svg'}
+                {/* eslint-disable @next/next/no-img-element */}
+                 <img
+                  src={member.image }
                   alt={member.name}
                   className="h-full w-full object-cover"
                 />
