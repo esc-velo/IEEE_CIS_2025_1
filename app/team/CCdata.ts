@@ -234,45 +234,6 @@ export const ccdata: TeamMember[] = [
     },
   },
 
-  {
-    id: 28,
-    name: 'Kanishk Satyajit Das',
-    role: 'Head of Logistics',
-    image: '',
-    socialMedia: {
-      linkedin: '',
-    },
-  },
-
-  {
-    id: 29,
-    name: 'Rishan Mazumdar',
-    role: 'Joint Head of Logistics',
-    image: 'https://images.prismic.io/ieeemuj/aFrTdXfc4bHWirWs_Rishan_CIS_CC_25-26.jpg?auto=format,compress',
-    socialMedia: {
-      linkedin: 'https://www.linkedin.com/in/rishan-mazumdar-449057312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    },
-  },
-  {
-    id: 30,
-    name: 'Pranav Kheole',
-    role: 'Senior Coordinator of Logistics',
-    image: '',
-    socialMedia: {
-      linkedin: 'https://www.linkedin.com/in/pranav-kheole-88061a353/',
-    },
-  },
-  {
-    id: 31,
-    name: 'Harsh Raj',
-    role: 'Senior Coordinator of Logistics',
-    image: 'https://images.prismic.io/ieeemuj/aFrTZnfc4bHWirWR_HarshRaj_CIS_CC_25-26.jpeg?auto=format,compress',
-    socialMedia: {
-      linkedin: 'http://www.linkedin.com/in/harshraj2422',
-    },
-  },
-
-
 
 ]
 
