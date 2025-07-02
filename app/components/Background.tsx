@@ -4,7 +4,7 @@
  export default function Background(){
     return (
     <div>
- <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
+ <svg className="absolute inset-0 w-full h-full -z-1" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
             <path

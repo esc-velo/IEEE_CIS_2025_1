@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import {  Instagram, Twitter, Globe, Linkedin, Github
 } from 'lucide-react';
 
@@ -43,34 +42,34 @@ export default function TeamGrid3D({
   
     case "instagram":
       return (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
           <Instagram  size={18} />
-        </Link>
+        </a>
   
       );
     case "twitter":
       return (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
           <Twitter size={18} />
-        </Link>
+        </a>
       );
     case "website":
       return (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
           <Globe size={18} />
-        </Link>
+        </a>
       );
     case "linkedin":
       return (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
           <Linkedin size={18} />
-        </Link>
+        </a>
       );
     case "github":
       return (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={sharedClass}>
           <Github size={18} />
-        </Link>
+        </a>
       );
     default:
       return null;
