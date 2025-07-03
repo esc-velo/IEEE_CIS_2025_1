@@ -31,7 +31,12 @@ export const ecdata: TeamMember[] = [
     
     image: '/image.png',
     socialMedia: {
-      instagram: 'https://instagram.com/snehamarkets',
+     website:'https://portfolio-kanishka-mu.vercel.app/',
+      github:'https://github.com/cookiesandcoding',
+      linkedin:'https://www.linkedin.com/in/kanishka-bhatia-198294312/',
+      twitter:'https://x.com/KanishkaBhati12',
+      instagram:'https://instagram.com/kkanishkaaa'
+      
     },
   },
   {
