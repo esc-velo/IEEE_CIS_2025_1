@@ -196,7 +196,7 @@ export const ccdata: TeamMember[] = [
     id: 24,
     name: 'Ekaagra Gupta',
     role: 'Joint Head of Sponsorship & Curations ',
-    image: 'https://images.prismic.io/ieeemuj/aFrTX3fc4bHWirWH_Ekaagra_CIS_CC_25-26.png?auto=format,compress',
+    image: 'https://images.prismic.io/ieeemuj/aGSfqXfc4bHWi8S-_ekaagra_CIS_CC_25-26.jpeg?auto=format,compress',
     socialMedia: {
       linkedin: 'http://www.linkedin.com/in/ekaagragupta',
       github: 'https://github.com/ekaagragupta',
