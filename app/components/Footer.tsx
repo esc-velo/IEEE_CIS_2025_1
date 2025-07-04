@@ -14,9 +14,9 @@ const socialLinks = [
 
   
   { icon: Instagram, label: 'Instagram',url:'https://www.instagram.com/ieee.cismuj/' },
-  { icon: Linkedin, label: 'LinkedIn',url:'https://www.instagram.com/ieee.cismuj/' },
+  { icon: Linkedin, label: 'LinkedIn',url:'https://www.linkedin.com/company/ieee-cis-muj' },
  
-  { icon: Github, label: 'GitHub',url:'https://www.instagram.com/ieee.cismuj/' },
+  { icon: Github, label: 'GitHub',url:'https://github.com/IEEECISMUJ' },
   
 ];
  

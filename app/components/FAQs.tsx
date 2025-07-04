@@ -117,38 +117,64 @@ function FAQItem({ question, answer, index }: FAQItemProps) {
  
 export default function Faq3() {
   const faqs: Omit<FAQItemProps, 'index'>[] = [
-    {
-      question: 'What makes MVPBlocks unique?',
-      answer:
-        "MVPBlocks stands out through its intuitive design, powerful component library, and seamless integration options. We've focused on creating a user experience that combines simplicity with advanced features, all while maintaining excellent performance and accessibility.",
-    },
-    {
-      question: 'How can I customize the components?',
-      answer:
-        'All components are built with Tailwind CSS, making them highly customizable. You can modify colors, spacing, typography, and more by simply adjusting the class names or using our theme variables to match your brand identity.',
-    },
-    {
-      question: 'Do the components work with dark mode?',
-      answer:
-        "Yes, all MVPBlocks components are designed to work seamlessly with both light and dark modes. They automatically adapt to your site's theme settings, providing a consistent user experience regardless of the user's preference.",
-    },
-    {
-      question: 'How can I get started with MVPBlocks?',
-      answer:
-        'You can get started by browsing our component library and copying the code for the components you need. Our documentation provides clear instructions for installation and usage, and you can always reach out to our support team if you need assistance.',
-    },
-    {
-      question: 'Can I use MVPBlocks for commercial projects?',
-      answer:
-        'Absolutely! MVPBlocks is free to use for both personal and commercial projects. There are no licensing fees or attribution requirements—just build and launch your MVP faster than ever before.',
-    },
-  ];
+  {
+    question: 'What is CIS?',
+    answer:
+      'CIS stands for the IEEE Computational Intelligence Society. It promotes research and innovation in intelligent systems inspired by nature and the brain.',
+  },
+  {
+    question: 'How can I join CIS?',
+    answer:
+      'You can join CIS by becoming an IEEE member and selecting CIS as your preferred society. Visit ieee.org/join to start the process.',
+  },
+  {
+    question: 'What is Computational Intelligence (CI)?',
+    answer:
+      'CI involves nature-inspired computing methods like neural networks, fuzzy logic, and evolutionary algorithms for solving real-world problems.',
+  },
+  {
+    question: 'What are Neural Networks?',
+    answer:
+      'Neural networks are models inspired by the human brain that learn from data. They power modern AI, including deep learning systems.',
+  },
+  {
+    question: 'What are Fuzzy Systems?',
+    answer:
+      'Fuzzy systems mimic human reasoning by handling uncertainty and imprecise information in tasks like control and decision-making.',
+  },
+  {
+    question: 'What is Evolutionary Computation?',
+    answer:
+      'It uses evolution-based techniques like genetic algorithms and swarm intelligence to find optimized solutions to complex problems.',
+  },
+  {
+    question: 'What is CIS’s Mission?',
+    answer:
+      'To drive progress in computational intelligence and support innovation that benefits humanity and the natural world.',
+  },
+  {
+    question: 'What is CIS’s Vision?',
+    answer:
+      'To be the leading society for knowledge and collaboration in computational intelligence to solve global challenges.',
+  },
+  {
+    question: 'What is CIS’s Field of Interest?',
+    answer:
+      'CIS covers neural networks, fuzzy systems, evolutionary algorithms, cognitive systems, and other intelligent computing approaches.',
+  },
+  {
+    question: 'What are CIS’s Core Values?',
+    answer:
+      'Community, integrity, diversity, service, partnerships, growth, and human well-being guide all CIS efforts and goals.',
+  },
+];
+
  
   return (
-    <section className="relative w-full overflow-hidden bg-background py-16">
+    <section className="relative w-full overflow-hidden  py-6 mt-30">
       {/* Decorative elements */}
-      <div className="absolute -left-20 top-20 h-64 w-64 rounded-full bg-primary/5 blur-3xl" />
-      <div className="absolute -right-20 bottom-20 h-64 w-64 rounded-full bg-primary/5 blur-3xl" />
+      <div className="absolute -left-20 top-20 h-64 w-64 rounded-full  blur-3xl" />
+      <div className="absolute -right-20 bottom-20 h-64 w-64 rounded-full  blur-3xl" />
  
       <div className="container relative mx-auto max-w-6xl px-4">
         <motion.div
@@ -157,19 +183,10 @@ export default function Faq3() {
           transition={{ duration: 0.5 }}
           className="mx-auto mb-12 max-w-2xl text-center"
         >
-          <div
-            
-            className="mb-4 border-primary px-3 py-1 text-xs font-medium uppercase tracking-wider"
-          >
-            FAQs
-          </div>
+         
  
-          <h2 className="mb-3 bg-gradient-to-r from-primary to-rose-400 bg-clip-text text-3xl font-bold text-transparent">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-sm text-muted-foreground">
-            Everything you need to know about MVPBlocks
-          </p>
+          <h2 className=' text-4xl py-6 font-bold leading-tight md:text-5xl'>Frequently Asked Questions </h2>
+          
         </motion.div>
  
         <div className="mx-auto max-w-2xl space-y-2">
@@ -178,34 +195,7 @@ export default function Faq3() {
           ))}
         </div>
  
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className={cn('mx-auto mt-12 max-w-md rounded-lg p-6 text-center')}
-        >
-          <div className="mb-4 inline-flex items-center justify-center rounded-full bg-primary/10 p-2 text-primary">
-            <Mail className="h-4 w-4" />
-          </div>
-          <p className="mb-1 text-sm font-medium text-foreground">
-            Still have questions?
-          </p>
-          <p className="mb-4 text-xs text-muted-foreground">
-            We&apos;re here to help you
-          </p>
-          <button
-            type="button"
-            className={cn(
-              'rounded-md px-4 py-2 text-sm',
-              'bg-primary text-primary-foreground',
-              'hover:bg-primary/90',
-              'transition-colors duration-200',
-              'font-medium',
-            )}
-          >
-            Contact Support
-          </button>
-        </motion.div>
+        
       </div>
     </section>
   );

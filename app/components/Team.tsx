@@ -77,15 +77,17 @@ export default function TeamGrid3D({
   };
 
   return (
-    <section className='w-full py-16 text-white'>
-      <div className="container mx-auto max-w-5xl px-4">
+    <section className='w-full py-6  text-white'>
+      <div className="container mx-auto max-w-5xl px-4 text-center ">
+     
         <div className="mb-12">
+
           <p className='mb-2 text-sm font-medium tracking-wider'>
             {subtitle}
           </p>
-          <h2 className='mb-6 text-4xl font-bold leading-tight md:text-5xl'>
+          <div className='mb-6 text-2xl font-bold leading-tight md:text-3xl'>
             {title}
-          </h2>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

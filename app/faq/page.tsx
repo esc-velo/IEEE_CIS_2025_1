@@ -9,9 +9,9 @@ export default function TeamPage() {
       {/* Grid Overlay */}
       <Background />
       <Navbar/>
-      <div className="mt-30">
+      
       <Faq3/>
-      </div>
+      
 <Footer4Col/>
     </div>
   );
