@@ -7,7 +7,7 @@ export const ecdata: TeamMember[] = [
     role: 'Chairperson',
 
     
-    image: '/image.png',
+    image: 'https://images.prismic.io/ieeemuj/aGjHJnfc4bHWjEhn_AnshikaKatare.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/anshikakatare?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcDHicFfQTqKdAAiIjiSAjw%3D%3D',
     },
@@ -18,7 +18,7 @@ export const ecdata: TeamMember[] = [
     role: 'Vice-Chairperson',
    
    
-    image: '/image.png',
+    image: 'https://images.prismic.io/ieeemuj/aGjHJXfc4bHWjEhm_YASHRAMNANI.png?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/yash-ramnani-735676200?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2eC2v6ZGQc2DBIHVUf0xGA%3D%3D',
     },
@@ -29,7 +29,7 @@ export const ecdata: TeamMember[] = [
     role: 'Managing Director',
    
     
-    image: '/image.png',
+    image: 'https://images.prismic.io/ieeemuj/aGa_zHfc4bHWjB5y_KANISHKA.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/kanishka-bhatia-198294312?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhq9rctLSQbqk0afVv%2FA4Pg%3D%3D',
     },
@@ -62,7 +62,7 @@ export const ecdata: TeamMember[] = [
     role: 'Human Resource Director',
     
    
-    image: '/image.png',
+    image: 'https://images.prismic.io/ieeemuj/aGa_y3fc4bHWjB5w_AarnaPareek.HEIC?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/aarnapareek?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCQleYP2xRtyrRHSgvcr7dg%3D%3D',
     },
