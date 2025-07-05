@@ -31,7 +31,12 @@ export const ecdata: TeamMember[] = [
     
     image: 'https://images.prismic.io/ieeemuj/aGa_zHfc4bHWjB5y_KANISHKA.jpg?auto=format,compress',
     socialMedia: {
-      linkedin: 'https://www.linkedin.com/in/kanishka-bhatia-198294312?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhq9rctLSQbqk0afVv%2FA4Pg%3D%3D',
+     website:'https://portfolio-kanishka-mu.vercel.app/',
+      github:'https://github.com/cookiesandcoding',
+      linkedin:'https://www.linkedin.com/in/kanishka-bhatia-198294312/',
+      twitter:'https://x.com/KanishkaBhati12',
+      instagram:'https://instagram.com/kkanishkaaa'
+      
     },
   },
   {

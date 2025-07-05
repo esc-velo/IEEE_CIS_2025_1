@@ -2,8 +2,6 @@ import Image from 'next/image';
 
 import {
   
-  
- 
   Github,
   Instagram,
   
@@ -15,10 +13,10 @@ import Link from 'next/link';
 const socialLinks = [
 
   
-  { icon: Instagram, label: 'Instagram' },
-  { icon: Linkedin, label: 'LinkedIn' },
+  { icon: Instagram, label: 'Instagram',url:'https://www.instagram.com/ieee.cismuj/' },
+  { icon: Linkedin, label: 'LinkedIn',url:'https://www.linkedin.com/company/ieee-cis-muj' },
  
-  { icon: Github, label: 'GitHub' },
+  { icon: Github, label: 'GitHub',url:'https://github.com/IEEECISMUJ' },
   
 ];
  
@@ -31,10 +29,10 @@ const quickLinks = [
 ];
  
 const otherSocities = [
-  { text: 'IEEE SB MUJ ', href: '#' },
-  { text: 'IEEE CS MUJ ', href: '#' },
-  { text: 'IEEE WIE MUJ', href: '#' },
-  { text: 'Genesis', href: '#' },
+  { text: 'IEEE SB MUJ ', href: 'https://ieeemuj.com/' },
+  { text: 'IEEE CS MUJ ', href: 'https://cs.ieeemuj.com/' },
+  { text: 'IEEE WIE MUJ', href: 'https://wie.ieeemuj.com/' },
+  { text: 'Genesis', href: 'https://genesis.ieeemuj.com/' },
 ];
  
 
@@ -42,7 +40,7 @@ const otherSocities = [
 const contactInfo = [
   {  text: 'Anshika Katare (Chairperson) ' },
   
-  { text: '8171653743 ' },
+  { text: '8171653843 ' },
    { text: 'Yash Ramnani (Vice-Chairperson) ' },
   
   {  text: '8171653743' },
@@ -50,20 +48,20 @@ const contactInfo = [
  
 export default function Footer4Col() {
   return (
-    <footer className=" w-full place-self-end rounded-t-xl bg-gradient-to-br from-[#0a0f1a] via-[#101624] to-[#1a2233]">
+    <footer className=" w-full place-self-end  bg-gradient-to-br from-[#0a0f1a] via-[#101624] to-[#1a2233]">
          
       <div className="mx-auto max-w-screen-xl px-0 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div>
-            <div className="flex justify-center gap-2 text-primary sm:justify-start">
+            <div className="flex items-center justify-center gap-2 text-primary sm:justify-start">
               <Image
                 src="/assets/ieeecislogo.png"
                 alt="logo"
-                width={8}
-                height={8}
-                className="rounded-full"
+                width={100}
+                height={100}
+                className=""
               />
-              <span className="bg-primary from-foreground via-rose-200 to-primary bg-clip-text text-2xl font-semibold text-transparent dark:bg-gradient-to-b">
+              <span className="text-white text-2xl font-semibold  ">
                 IEEE CIS MUJ
               </span>
             </div>
@@ -74,15 +72,16 @@ export default function Footer4Col() {
             </p>
  
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
-              {socialLinks.map(({ icon: Icon, label }) => (
+              {socialLinks.map(({ icon: Icon, label,url }) => (
                 <li key={label}>
                   <Link
-                    href="#"
-                    className="text-primary transition hover:text-primary/80"
-                  >
-                    <span className="sr-only">{label}</span>
-                    <Icon className="size-6" />
-                  </Link>
+  href={url}
+  className="text-white transition hover:text-[#64cdfa]"
+>
+  <span className="sr-only">{label}</span>
+  <Icon className="size-6" />
+</Link>
+
                 </li>
               ))}
             </ul>
@@ -96,7 +95,7 @@ export default function Footer4Col() {
                 {quickLinks.map(({ text, href }) => (
                   <li key={text}>
                     <a
-                      className="text-secondary-foreground/70 transition"
+                      className="text-white hover:text-[#1fb1ee] transition"
                       href={href}
                     >
                       {text}
@@ -113,7 +112,7 @@ export default function Footer4Col() {
                 {otherSocities.map(({ text, href }) => (
                   <li key={text}>
                     <a
-                      className="text-secondary-foreground/70 transition"
+                      className="text-white hover:text-[#1fb1ee] transition"
                       href={href}
                     >
                       {text}

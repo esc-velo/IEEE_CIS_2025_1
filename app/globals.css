@@ -24,7 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   
-  background: linear-gradient(to bottom right, #0a0f1a, #101624, #1a2233);
+  background: linear-gradient(
+  to bottom right,
+  #0a0f1a,
+  #101624,
+  #232d43,
+  #185874
+);
   margin:0;
   padding:0;
 }

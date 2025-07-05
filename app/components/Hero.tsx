@@ -48,7 +48,7 @@ export default function MinimalHero() {
     // Word hover effects
     words.forEach((word) => {
       word.addEventListener("mouseenter", () => {
-        word.style.textShadow = "0 0 20px rgba(200, 180, 160, 0.5)";
+        word.style.textShadow = "0 0 20px #64cdfa";
       });
       word.addEventListener("mouseleave", () => {
         word.style.textShadow = "none";
