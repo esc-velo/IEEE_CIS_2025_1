@@ -63,7 +63,7 @@ const items = [
     description: 'Explore who we are, our mission, and how we thrive within MUJ.',
     icon: <Code className="size-6 text-[#1fb1ee]" />,
     size: 'large' as const,
-    href: '/know-more',
+    href: '/knowmore',
   },
   {
     title: 'Join Now',
