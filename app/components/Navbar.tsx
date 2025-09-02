@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex flex-col justify-between w-6 h-5 text-white focus:outline-none"
+          className="flex flex-col justify-between w-6 h-5 text-white "
         >
           <span className="block h-0.5 bg-white" />
           <span className="block h-0.5 bg-white" />
@@ -58,7 +58,7 @@ const Navbar = () => {
                 Join Now
               </Link>
               <Link href="/knowmore" className="px-4 py-3 hover:bg-white/10">
-                Know More
+                Know More 
               </Link>
               <Link href="/team" className="px-4 py-3 hover:bg-white/10">
                 Team
