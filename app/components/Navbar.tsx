@@ -62,12 +62,13 @@ const Navbar = () => {
               <Link href="/team" className="px-4 py-3 hover:bg-white/10">
                 Team
               </Link>
-              <Link href="/blogs" className="px-4 py-3 hover:bg-white/10">
-                Blogs
-              </Link>
               <Link href="/events" className="px-4 py-3 hover:bg-white/10">
                 Events
               </Link>
+              <Link href="/blogs" className="px-4 py-3 hover:bg-white/10">
+                Blogs
+              </Link>
+              
             </div>
           </div>
         )}
