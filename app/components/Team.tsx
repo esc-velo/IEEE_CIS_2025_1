@@ -106,7 +106,7 @@ export default function TeamGrid3D({
               {member.role && (
                 <p className="mb-4 text-sm text-gray-400">{member.role}</p>
               )}
-              <div className="mt-2 flex space-x-4">
+              <div className="mt-2 flex justify-center space-x-4">
                 {member.socialMedia &&
                   Object.entries(member.socialMedia).map(
                     ([key, value]) => value && <span key={key}>{getSocialIcon(key, value)

@@ -9,8 +9,15 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 left-0 z-50 px-8 py-4 flex items-center justify-between">
       {/* Logo */}
       <div className="text-white text-xl font-bold">
-        <Image src="/assets/ieeecis1.png" alt="Logo" width={180} height={120} />
-      </div>
+  <Link href="/">
+    <Image
+      src="/assets/ieeecis1.png"
+      alt="Logo"
+      width={180}
+      height={120}
+    />
+  </Link>
+</div>
 
       {/* Hamburger + Dropdown */}
       <div className="relative">
@@ -43,6 +50,9 @@ const Navbar = () => {
             </div>
 
             <div className="flex flex-col pb-2">
+              <Link href="/" className="px-4 py-3 hover:bg-white/10">
+                Home
+              </Link>
               <Link href="/know-more" className="px-4 py-3 hover:bg-white/10">
                 Know More
               </Link>
