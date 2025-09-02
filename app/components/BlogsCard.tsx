@@ -10,7 +10,7 @@ type BlogCardProps = {
 
 export default function BlogCard({ title, description, image, link }: BlogCardProps) {
   return (
-    <div className="bg-white/10 rounded-2xl shadow-lg overflow-hidden max-w-md mx-auto">
+    <div className="bg-white/0 rounded-2xl shadow-lg overflow-hidden max-w-md mx-auto">
       <Image
         src={image}
         alt={title}

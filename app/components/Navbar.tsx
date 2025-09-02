@@ -53,7 +53,7 @@ const Navbar = () => {
               <Link href="/" className="px-4 py-3 hover:bg-white/10">
                 Home
               </Link>
-              <Link href="/know-more" className="px-4 py-3 hover:bg-white/10">
+              <Link href="/knowmore" className="px-4 py-3 hover:bg-white/10">
                 Know More
               </Link>
               <Link href="https://cis.ieee.org/activities/membership-activities/join-renew" className="px-4 py-3 hover:bg-white/10">

@@ -9,8 +9,7 @@ export type EventCardType = {
   title: string;
   description: string;
   src: string;
-  ctaText: string;
-  ctaLink: string;
+  
   
 };
 
@@ -67,13 +66,7 @@ export default function EventCard({ events }: Props) {
                   {active.description}
                 </p>
                
-                <a
-                  href={active.ctaLink}
-                  target="_blank"
-                  className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-                >
-                  {active.ctaText}
-                </a>
+                
               </div>
             </motion.div>
           </div>
@@ -86,7 +79,7 @@ export default function EventCard({ events }: Props) {
             layoutId={`card-${event.title}-${id}`}
             key={event.title}
             onClick={() => setActive(event)}
-            className="cursor-pointer bg-white dark:bg-neutral-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
+            className="cursor-pointer bg-white/20  rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
           >
             <img
               src={event.src}

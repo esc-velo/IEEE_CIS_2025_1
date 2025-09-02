@@ -10,7 +10,7 @@ export default function BlogsPage() {
       <Background />
       <Navbar />
 
-      <main className="container mx-auto px-6 py-12">
+      <main className="container mx-auto px-6 py-30">
         <h1 className="text-4xl font-bold text-center mb-10">Our Blogs</h1>
 
         <div className="flex justify-center">
