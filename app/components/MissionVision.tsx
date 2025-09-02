@@ -98,7 +98,7 @@ const items = [
     description: 'Dive into our vision, long-term goals, and the roadmap to the future.',
     icon: <FileText className="size-6 text-[#1fb1ee]" />,
    size: 'large' as const,
-    href: '/strategic-plan',
+    href: 'https://cis.ieee.org/images/files/Documents/IEEE_CIS_Strategic_Plan_2023-2025.pdf',
   },
 ];
 
