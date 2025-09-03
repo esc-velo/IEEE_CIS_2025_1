@@ -13,7 +13,7 @@ const Navbar = () => {
     <Image
       src="/assets/ieeecis1.png"
       alt="Logo"
-      width={180}
+      width={165}
       height={120}
     />
   </Link>
