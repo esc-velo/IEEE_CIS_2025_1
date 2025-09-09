@@ -15,10 +15,10 @@ export default function BlogsPage() {
 
         <div className="flex justify-center">
           <BlogCard
-            title="AI in Today’s World"
-            description="Discover how Artificial Intelligence is shaping industries, transforming businesses, and impacting our daily lives."
-            image=""
-            link="https://medium.com/your-medium-link"
+            title="Is Your Phone Really Listening?"
+            description="Ever wondered why ads pop up right after you talk about something? This blog uncovers the truth behind your phone’s “listening” mystery."
+            image="/blogs/blogimg.webp"
+            link="https://medium.com/@IEEE_CIS_MUJ/why-you-see-that-ad-right-after-talking-about-it-is-your-phone-really-listening-96ce918e77bc"
           />
         </div>
       </main>

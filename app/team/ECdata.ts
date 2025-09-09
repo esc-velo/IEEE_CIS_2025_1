@@ -83,19 +83,4 @@ export const ecdata: TeamMember[] = [
       linkedin: 'https://www.linkedin.com/in/d-m-shreyas-62a343292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwmMIO2bIQUihdH1daX%2FKGA%3D%3D',
     },
   },
-   {
-    id: 108,
-    name: 'Vasundhra Mishra',
-    role: 'Research and Development Mentor',
-    
-  
-    image: '/image.png',
-    socialMedia: {
-      linkedin: '',
-    },
-  },
 ];
-
-
-
-

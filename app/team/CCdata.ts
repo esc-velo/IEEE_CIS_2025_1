@@ -4,24 +4,22 @@ export const ccdata: TeamMember[] = [
   
   {
 
-    id: 1,
-    name: 'Parag Goel',
-    role: 'Head of Programs & Promotions',
-    image: 'https://images.prismic.io/ieeemuj/aGPAKXfc4bHWi6Ui_Parag_CIS_CC_25-26.jpg?auto=format,compress',
-    socialMedia: {
-      instagram: 'https://www.instagram.com/parag._10?igsh=aWw5YXFiOTFoaHAw',
-      linkedin: 'https://www.linkedin.com/in/parag-goel-3865a6262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-
-    },
-  },
-
-  {
     id: 2,
     name: 'Shubhanshi Shekhar',
     role: 'Joint Head of Programs & Promotions',
     image: 'https://images.prismic.io/ieeemuj/aGGYWnfc4bHWi0KE_Shubhanshi_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/shubhanshi-shekhar-81a649348',
+    }
+  },
+
+  {
+    id: 2,
+    name: 'Krishnav Garg',
+    role: 'Joint Head of Programs & Promotions',
+    image: 'https://images.prismic.io/ieeemuj/aLf6PmGNHVfTOjYX_Daksh_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
     }
   },
    {
@@ -54,7 +52,7 @@ export const ccdata: TeamMember[] = [
     id: 5,
     name: 'Manya Gupta',
     role: 'Senior Coordinator of Programs & Promotions',
-    image: '',
+    image: 'https://images.prismic.io/ieeemuj/aLKXFmGNHVfTOdjd_ManyaGupta_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       
     },
@@ -125,7 +123,7 @@ export const ccdata: TeamMember[] = [
   name: 'Rahini Raneru',
   role: 'Webmaster',
  
-  image: 'https://images.prismic.io/ieeemuj/aFrTdHfc4bHWirWr_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
+  image: 'https://images.prismic.io/ieeemuj/aLKXFmGNHVfTOdje_Rahini_CIS_CC_25-26.jpg?auto=format,compress',
   socialMedia: {
     linkedin: 'https://www.linkedin.com/in/rahini-raneru-6493552b6',
     github: 'https://github.com/esc-velo'
@@ -135,7 +133,7 @@ export const ccdata: TeamMember[] = [
   id: 13,
   name: 'Vaisakhi Das',
   role: 'Webmaster', 
-  image: 'https://images.prismic.io/ieeemuj/aFrTfHfc4bHWirWw_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
+  image: 'https://images.prismic.io/ieeemuj/aLKYxmGNHVfTOdji_Vaisakhi_CIS_CC_25-26.jpg?auto=format,compress',
   socialMedia: {
     linkedin: 'https://www.linkedin.com/in/vaisakhi-das-b03858303/',
     github:'https://github.com/VaisakhiDas'
@@ -218,7 +216,7 @@ export const ccdata: TeamMember[] = [
     id: 26,
     name: 'Arnav jain',
     role: 'Senior Coordinator of Sponsorship & Curations ',
-    image: '',
+    image: 'https://images.prismic.io/ieeemuj/aLc75GGNHVfTOiRK_account_icon_3x4-1-.png?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/arnavvjainnn',
     },
@@ -236,44 +234,83 @@ export const ccdata: TeamMember[] = [
 
   {
     id: 28,
-    name: 'Kanishk Satyajit Das',
-    role: 'Head of Logistics',
-    image: '',
-    socialMedia: {
-      linkedin: '',
-    },
-  },
-
-  {
-    id: 29,
     name: 'Rishan Mazumdar',
-    role: 'Joint Head of Logistics',
+    role: 'Head of Logistics',
     image: 'https://images.prismic.io/ieeemuj/aFrTdXfc4bHWirWs_Rishan_CIS_CC_25-26.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/rishan-mazumdar-449057312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   },
+
+  {
+    id: 29,
+    name: 'Harsh Raj',
+    role: 'Joint Head of Logistics',
+    image: 'https://images.prismic.io/ieeemuj/aFrTZnfc4bHWirWR_HarshRaj_CIS_CC_25-26.jpeg?auto=format,compress',
+    socialMedia: {
+      linkedin: 'http://www.linkedin.com/in/harshraj2422',
+    },
+
+  },
   {
     id: 30,
     name: 'Pranav Kheole',
     role: 'Senior Coordinator of Logistics',
-    image: '',
+    image: 'https://images.prismic.io/ieeemuj/aLKRaWGNHVfTOdiq_IMG-20250623-WA0008-RishanMazumdar.jpg?auto=format,compress',
     socialMedia: {
       linkedin: 'https://www.linkedin.com/in/pranav-kheole-88061a353/',
     },
   },
   {
     id: 31,
-    name: 'Harsh Raj',
+    name: 'Daksh Pandey',
     role: 'Senior Coordinator of Logistics',
-    image: 'https://images.prismic.io/ieeemuj/aFrTZnfc4bHWirWR_HarshRaj_CIS_CC_25-26.jpeg?auto=format,compress',
+    image: 'https://images.prismic.io/ieeemuj/aLc75GGNHVfTOiRK_account_icon_3x4-1-.png?auto=format,compress',
     socialMedia: {
       linkedin: 'http://www.linkedin.com/in/harshraj2422',
     },
   },
+  {
+    id: 32,
+    name: 'Pranshu Singh',
+    role: 'Head of R&D',
+    image: 'https://images.prismic.io/ieeemuj/aFrTbnfc4bHWirWf_Pranshu_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },
+  {
+    id: 31,
+    name: 'Shaurya Pathak',
+    role: 'Joint Head of R&D',
+    image: 'https://images.prismic.io/ieeemuj/aFrTeXfc4bHWirWu_Shaurya_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },{
+    id: 31,
+    name: 'Rishita Jain',
+    role: 'Senior Coordinator of R&D',
+    image: 'https://images.prismic.io/ieeemuj/aLf6MWGNHVfTOjYP_Rishita_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },{
+    id: 31,
+    name: 'Akriti Singh',
+    role: 'Senior Coordinator of R&D',
+    image: 'https://images.prismic.io/ieeemuj/aFrTXHfc4bHWirWD_Akriti_CIS_CC_25-26.webp?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },{
+    id: 31,
+    name: 'Bhani Kaur',
+    role: 'Senior Coordinator of R&D',
+    image: 'https://images.prismic.io/ieeemuj/aFrTXXfc4bHWirWF_Bhani_CIS_CC_25-26.jpg?auto=format,compress',
+    socialMedia: {
+      linkedin: '',
+    },
+  },
 
 ]
-
-  
-  
- 

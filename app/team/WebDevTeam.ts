@@ -24,6 +24,7 @@ export const webdevTeamData: TeamMember[] = [
   image: 'https://images.prismic.io/ieeemuj/aFrTXnfc4bHWirWG_Drishti_CIS_CC_25-26.jpg?auto=format,compress',
   socialMedia: {
     linkedin: 'https://www.linkedin.com/in/drishtinandwani11/',
+    github: 'https://github.com/spock28'
    },
   },
  {
